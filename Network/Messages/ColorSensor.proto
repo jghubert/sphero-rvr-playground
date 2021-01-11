@@ -4,8 +4,8 @@ message ColorSensorRequest {
 }
 
 message ColorSensor {
-  uint16 r = 1;  // 0 to UINT8_MAX
-  uint16 g = 2;
-  uint16 b = 3;
-  float confidence = 4;   // 0.0 to 1.0
+  uint32 r = 1;  // 0 to UINT8_MAX
+  uint32 g = 2;
+  uint32 b = 3;
+  double confidence = 4;   // 0.0 to 1.0
 }

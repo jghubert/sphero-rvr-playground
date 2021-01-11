@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "SphereRVRDataTypes.proto";
+
 service RVRSpheroService {
   // Data Retrieval
   rpc GetAccelerometer(AccelerometerRequest) returns (Accelerometer);
