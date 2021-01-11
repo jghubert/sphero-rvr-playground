@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SpeedRequest {
+
+}
+
+message Speed {
+  double speed = 1; // 0.0 -> 5.0 meters/sec
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message QuaternionRequest {
+
+}
+
+message Quaternion {
+  double w = 1;  // -1.0 -> 1.0
+  double x = 2;  // -1.0 -> 1.0
+  double y = 3;  // -1.0 -> 1.0
+  double z = 4;  // -1.0 -> 1.0
+}

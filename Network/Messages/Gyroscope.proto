@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message GyroscopeRequest {
+
+}
+
+message Gyroscope {
+  double x = 1;  // -2000.0 -> 2000.0 degrees/sec
+  double y = 2;  // -2000.0 -> 2000.0 degrees/sec
+  double z = 3;  // -2000.0 -> 2000.0 degrees/sec
+}

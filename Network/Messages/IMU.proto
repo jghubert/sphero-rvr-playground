@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message IMURequest {
+
+}
+
+message IMU {
+  double pitch = 1;  // [-180.0 ; 180.0]  degrees
+  double roll = 2;   // [-90.0 ; 90.0]  degrees
+  double yaw = 3;    // [-180.0 ; 180.0]  degrees
+}

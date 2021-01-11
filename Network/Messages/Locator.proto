@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message LocatorRequest {
+
+}
+
+message Locator {
+  double x = 1;  // -16000.0 -> 16000.0 meters
+  double y = 2;  // -16000.0 -> 16000.0 meters
+}

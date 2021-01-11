@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import public "Accelerometer.proto";
+import public "AmbientLight.proto";
+import public "ColorSensor.proto";
+import public "CoreTime.proto";
+import public "Gyroscope.proto";
+import public "IMU.proto";
+import public "Locator.proto";
+import public "Quaternion.proto";
+import public "Speed.proto";
+import public "Velocity.proto";
+

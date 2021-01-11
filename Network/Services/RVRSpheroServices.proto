@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service RVRSpheroService {
+  // Data Retrieval
+  rpc GetAccelerometer(AccelerometerRequest) returns (Accelerometer);
+  rpc GetAmbientLight(AmbientLightRequest) returns (AmbientLight);
+  rpc GetColorSensor(ColorSensorRequest) returns (ColorSensor);
+  rpc GetCoreTime(CoreTimeRequest) returns (CoreTime);
+  rpc GetGyroscope(GyroscopeRequest) returns (Gyroscope);
+  rpc GetIMU(IMURequest) returns (IMU);
+  rpc GetLocator(LocatorRequest) returns (Locator);
+  rpc GetQuaternion(QuaternionRequest) returns (Quaternion);
+  rpc GetSpeed(SpeedRequest) returns (Speed);
+  rpc GetVelocity(VelocityRequest) returns (Velocity);
+}

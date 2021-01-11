@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message CoreTimeRequest {
+
+}
+
+message CoreTime {
+  uint32 time_lower = 1;  // 0 -> UINT32_MAX milliseconds
+  uint32 time_higher = 2;  // 0 -> UINT32_MAX milliseconds
+}
