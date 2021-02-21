@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+//import "SpheroRVRDataTypes.proto";
+import "Accelerometer.proto";
+import "AmbientLight.proto";
+import "ColorSensor.proto";
+import "CoreTime.proto";
+import "Gyroscope.proto";
+import "IMU.proto";
+import "Locator.proto";
+import "Quaternion.proto";
+import "Speed.proto";
+import "Velocity.proto";
+
+message SensorDataRequest {
+  uint32 sensorFlagLength = 1;
+  repeated bool sensorFlag = 2 [packed=true];
+}
+
+message SensorData {
+  Accelerometer accelerometer = 1;
+  AmbientLight ambient_light = 2;
+  ColorSensor color_sensor = 3;
+  CoreTime core_time = 4;
+  Gyroscope gyroscope = 5;
+  IMU imu = 6;
+  Locator locator = 7;
+  Quaternion quaternion = 8;
+  Speed speed = 9;
+  Velocity velocity = 10;
+}

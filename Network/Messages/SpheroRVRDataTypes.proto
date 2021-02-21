@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "Accelerometer.proto";
+import "AmbientLight.proto";
+import "ColorSensor.proto";
+import "CoreTime.proto";
+import "Gyroscope.proto";
+import "IMU.proto";
+import "Locator.proto";
+import "Quaternion.proto";
+import "Speed.proto";
+import "Velocity.proto";
+
